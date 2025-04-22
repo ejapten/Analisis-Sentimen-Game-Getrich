@@ -32,7 +32,7 @@ Proyek ini dibuat untuk menganalisis ulasan pemain terhadap game **GetRich** dan
 - `README.md`                      : Dokumentasi utama proyek  
 
 
-## ▶️ Cara Menjalankan Proyek
+## ▶️ File Proyek
 
 1. **Latih model** dengan menjalankan file:
 File ini berisi preprocessing data, pelabelan, ekstraksi fitur, dan pelatihan model.
@@ -41,3 +41,30 @@ File ini berisi preprocessing data, pelabelan, ekstraksi fitur, dan pelatihan mo
 3. File ini menampilkan antarmuka input ulasan, lalu model akan memprediksi sentimennya.
 
 ---
+
+## 🚀 Cara Menjalankan Proyek
+
+Berikut adalah langkah-langkah yang dapat diikuti untuk menjalankan proyek ini:
+
+### 1. Menyiapkan Lingkungan Virtual
+
+Sebelum memulai, pastikan Anda menggunakan virtual environment agar dependensi proyek terisolasi dengan baik. Untuk membuat dan mengaktifkan lingkungan virtual, jalankan perintah berikut di terminal:
+
+- **Untuk Windows:**
+  ```bash
+  python -m venv venv
+  .\venv\Scripts\activate
+
+- **Untuk Linux/mac:**
+  ```bash
+  python3 -m venv venv
+  source venv/bin/activate
+  
+### 2. Instalasi Dependensi
+ pip install -r requirements.txt
+ 
+### 3. Jalankan proyek
+ - File Proces and Modelling.ipynb
+ - File deploy.ipynb
+
+
