@@ -23,7 +23,7 @@ Proyek ini dibuat untuk menganalisis ulasan pemain terhadap game **GetRich** dan
 - `Proses and Modelling.ipynb`   : Notebook untuk training dan evaluasi model  
 - `deploy/`                        : Folder berisi file untuk deployment
   - `deploy.ipynb`                 : Notebook untuk menjalankan model secara interaktif
-  - - `model_sentimen.h5`              : Model Keras hasil training untuk analisis sentimen  
+  - - `sentiment_model.keras`              : Model Keras hasil training untuk analisis sentimen  
   - `tfidf_vectorizer.pkl`           : TF-IDF vectorizer hasil training untuk memproses teks  
 - `raw_data_lgr.csv`               : Dataset hasil scraping review game Getrich dari Google Play  
 - `scraping/`                      : Folder untuk proses scraping data
