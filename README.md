@@ -13,16 +13,15 @@ Proyek ini dibuat untuk menganalisis ulasan pemain terhadap game **GetRich** dan
 - Matplotlib  
 - Gensim  
 - NLTK  
-- Langid  
-- Gradio *(untuk deployment)*
-
+- Langid
+  
 ---
 
 ## 🗂️ Struktur Folder Proyek
 
 - `Proses and Modelling.ipynb`   : Notebook untuk training dan evaluasi model  
 - `deploy/`                        : Folder berisi file untuk deployment
-  - `deploy.ipynb`                 : Notebook untuk menjalankan model secara interaktif
+  - `deploy.ipynb`                 : Notebook untuk menjalankan model 
   - - `sentiment_model.keras`              : Model Keras hasil training untuk analisis sentimen  
   - `tfidf_vectorizer.pkl`           : TF-IDF vectorizer hasil training untuk memproses teks  
 - `raw_data_lgr.csv`               : Dataset hasil scraping review game Getrich dari Google Play  
